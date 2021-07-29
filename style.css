@@ -18,7 +18,8 @@ section{
 .half-width h1 { 
      font-size: 50px;
      font-weight: 700;
-     width: 450px; 
+     width: 450px;
+     color: #535353 ; 
 }
 .half-width h1 span { 
      color: rgb(253, 84, 32);
@@ -44,4 +45,19 @@ section{
      background-repeat: no-repeat;
      background-size: cover;
     background-position: center;
+}
+.half-width h2{
+     font-size: 30px;
+     font-weight: 600;
+     color: #535353;
+}
+.half-width p{
+     width: 300p;
+     line-height: 1.5;
+     color: #8d8c8c;
+     margin-bottom: 60px;
+}
+.about-div{
+     padding: 50px;
+     margin-top: 150px;
 }
