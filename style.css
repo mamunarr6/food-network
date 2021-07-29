@@ -21,7 +21,7 @@ body {
      width: 450px;
      color: #535353 ; 
 }
-.half-width h1 span { 
+#style-2 { 
      color: rgb(253, 84, 32);
 }
 .half-width img {
@@ -69,7 +69,7 @@ body {
      display: inline-block;
      width: 25%;
      margin-left: 85px;
-     box-shadow: 10px 10px 30px #547c73;
+     box-shadow: 10px 10px 25px #a4bbb6;
      padding: 15px;
      border-radius: 20px;
 }
@@ -84,6 +84,10 @@ body {
 .recipe-title{
      margin-top: 40px;
 }
+.recipe-banner-section{
+     margin-top: 50px;
+     margin-bottom: 50px;
+}
 .recipe-banner-section h1{
      text-align: center;
      color: rgb(85, 84, 84);
@@ -92,3 +96,29 @@ body {
      text-align: center;
      color: rgb(133, 132, 132);
 }
+.rank-banner{
+     display: flex;
+     text-align: center;
+     box-shadow: #a4bbb6 0px 5px 15px;
+     margin: 100px;
+}
+.rank-list{
+     margin: auto;
+}
+.rank-list h1{
+     font-size: 50px;
+}
+footer {
+     text-align: center;
+     background-color: #1d1b1b;
+     color: white;
+     padding-top: 50px;
+     padding-bottom: 50px;
+ }
+ footer h1{
+      color: #a3a5a5;
+ }
+ footer p{
+      font-weight: 100;
+      color: #f0f0f0;
+ }
