@@ -1,11 +1,47 @@
-
-
-.top-banner-section{
-    display: flex;
-    width: 80%;
-    height: 400px;
+body {
+     margin: 0; 
+     padding: 0;
+     font-family: Roboto, sans-serif;
 }
-
-.top-banner{
-    width: 40%;
+section{
+    display: flex;
+    width: 100%;
+}
+.top-banner-section {
+     height: 700px; 
+}
+.half-width {
+     width: 40%;
+     margin-left: 90px;
+     padding: 40px;
+}
+.half-width h1 { 
+     font-size: 50px;
+     font-weight: 700;
+     width: 450px; 
+}
+.half-width h1 span { 
+     color: rgb(253, 84, 32);
+}
+.half-width img {
+     width: 70%;
+}
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(to right,rgb(243, 133, 118) ,rgb(253, 77, 23));
+    padding: 10px 20px;
+    color: white;
+    border-radius: 50px;
+}
+.half-width h5 {
+    width: 400px;
+    font-weight: 500;
+    margin-bottom: 35px;
+    line-height: 2;
+}
+.second-banner{
+     background-image: url(images/7.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+    background-position: center;
 }
