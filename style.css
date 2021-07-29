@@ -52,7 +52,6 @@ body {
      color: #535353;
 }
 .half-width p{
-     width: 300px;
      line-height: 1.5;
      color: #8d8c8c;
      margin-bottom: 60px;
@@ -96,17 +95,47 @@ body {
      text-align: center;
      color: rgb(133, 132, 132);
 }
+.comment-banner{
+     
+     display: flex;
+}
+.comment-text{
+     text-align: center;
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+     border-radius: 20px;
+     background-color: #e7e5e5;
+}
+.comment-text h1{
+     width: 400px;
+     text-align: center;
+     margin: 30px 160px 30px;
+}
+.comment-text p{
+     line-height:1.5;
+     width: 300px;
+     margin: 30px 200px 30px;
+}
+.comment-image{
+     margin-right: 45px;
+     padding: 0px;
+}
+.comment-image img{
+     width: 100%;
+     border-radius: 20px;
+}
 .rank-banner{
      display: flex;
      text-align: center;
      box-shadow: #a4bbb6 0px 5px 15px;
      margin: 100px;
+     padding-bottom: 20px;
 }
 .rank-list{
      margin: auto;
 }
 .rank-list h1{
      font-size: 50px;
+     line-height: 0.5;
 }
 footer {
      text-align: center;
