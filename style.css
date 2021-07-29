@@ -3,9 +3,9 @@ body {
      padding: 0;
      font-family: Roboto, sans-serif;
 }
-section{
+.flexible-container{
     display: flex;
-    width: 100%;
+    margin-bottom: 50px;
 }
 .top-banner-section {
      height: 700px; 
@@ -41,7 +41,7 @@ section{
     line-height: 2;
 }
 .second-banner{
-     background-image: url(images/7.png);
+     background-image: url(images/bg1.png);
      background-repeat: no-repeat;
      background-size: cover;
     background-position: center;
@@ -52,7 +52,7 @@ section{
      color: #535353;
 }
 .half-width p{
-     width: 300p;
+     width: 300px;
      line-height: 1.5;
      color: #8d8c8c;
      margin-bottom: 60px;
@@ -60,4 +60,35 @@ section{
 .about-div{
      padding: 50px;
      margin-top: 150px;
+}
+.recipe-div{
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+.recipe-banner{
+     display: inline-block;
+     width: 25%;
+     margin-left: 85px;
+     box-shadow: 10px 10px 30px #547c73;
+     padding: 15px;
+     border-radius: 20px;
+}
+.recipe-banner img{
+     width: 100%;
+     border-radius: 20px;
+}
+.recipe-banner p{
+     color: rgb(82, 82, 82);
+     line-height: 2;
+}
+.recipe-title{
+     margin-top: 40px;
+}
+.recipe-banner-section h1{
+     text-align: center;
+     color: rgb(85, 84, 84);
+}
+.recipe-banner-section h5{
+     text-align: center;
+     color: rgb(133, 132, 132);
 }
